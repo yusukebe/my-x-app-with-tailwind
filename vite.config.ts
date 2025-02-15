@@ -15,9 +15,6 @@ export default defineConfig(({ mode }) => {
     }
   } else {
     return {
-      build: {
-        ssrEmitAssets: true
-      },
       plugins: [tailwindcss(), honox(), build()]
     }
   }
