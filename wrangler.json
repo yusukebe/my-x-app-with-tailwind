@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-x-app-with-tailwind",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "dist"
+  },
+  "compatibility_date": "2025-02-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
