@@ -13,9 +13,8 @@ export default defineConfig(({ mode }) => {
         }
       }
     }
-  } else {
-    return {
-      plugins: [tailwindcss(), honox(), build()]
-    }
+  }
+  return {
+    plugins: [tailwindcss(), honox(), build()]
   }
 })
